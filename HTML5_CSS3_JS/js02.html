@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="i1">
+    欢迎来到华开科技有限公司
+</div>
+
+
+<script>
+    function fun1() {
+        //根据ID获取指定标签的内容，定义局部变量接收
+        var tag=document.getElementById("i1");
+        //获取标签内部的内容
+        var content=tag.innerText;
+        var c=content.charAt(0);
+        var l=content.substring(1,content.length);
+        var new_content=l+c;
+        tag.innerText=new_content;
+    }
+    //创建一个定时器
+    setInterval("fun1()",1000);
+</script>
+</body>
+</html>

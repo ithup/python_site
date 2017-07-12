@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0px
+        ;
+        }
+        .pg-header{
+            height: 48px;
+            background-color: #2459a2;
+            line-height: 48px;
+            position: fixed;
+            top:0;
+            left: 0px;
+            right: 0;
+        }
+        .pg-header-content{
+            width:980px;
+            margin: 0 auto;
+        }
+        .a-menu{
+            display: inline-block;
+            margin: 0 10px;
+            color: white;
+        }
+        .a-menu:hover{
+            background-color: #333333;
+
+        }
+        .logo{
+            color: yellow;
+        }
+        .pg-body{
+            height: 5000px;
+            background-color: #DAFFD5;
+            margin-top: 48px;
+        }
+        .pg-body-content{
+            width: 980px;
+            height: 5000px;
+            background-color: white;
+            margin: 0 auto;
+        }
+        .a1{
+            display: inline-block;
+            margin: 0 10px;
+            color: gray;
+        }
+        .a1:hover{
+            background-color:whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="pg-header">
+        <div class="pg-header-content">
+                <div style="float: left">
+                    <a class="logo">抽屉新热榜</a>
+                </div>
+                <div style="float: left;margin-left: 20px">
+                    <a class="a-menu">全部</a>
+                    <a class="a-menu">42区</a>
+                    <a class="a-menu">段子</a>
+                    <a class="a-menu">图片</a>
+                    <a class="a-menu">挨踢1024</a>
+                    <a class="a-menu">你问我答</a>
+                </div>
+                <div style="float: right">
+                    <div style="float: left">
+                        <a class="a-menu">登录</a>
+                        <a class="a-menu">注册</a>
+                    </div>
+                    <div style="float: left">
+                        <form action="">
+                            <input type="search" name="search">
+                            <input type="submit" value="搜索">
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="pg-body">
+        <div class="pg-body-content">
+            <div style="padding-top: 50px;padding-left: 40px">
+                <a class="a1 ">内容</a>
+                <a class="a1">用户</a>
+            </div>
+            <div style="padding-left: 50px;padding-top: 20px">
+                <form action="">
+                    <input type="search" name="search" style="width: 500px;height: 28px">
+                    <input type="submit" value="搜索" style="width:80px;height: 28px;background-color: #84a42b;border: 1px solid #84a42b">
+                </form>
+            </div>
+            <div style="padding-left: 50px;padding-top: 20px;padding-right: 345px;color:#00897b ">
+                 <hr>
+            </div>
+            <div style="border: 1px solid gainsboro;height: 50px;width: 500px;background:#ffc;margin-left: 50px;margin-top: 20px;
+                           text-align: center">
+                        亲爱的抽友，想找点啥？
+            </div>
+        </div>
+    </div>
+</body>
+</html>
